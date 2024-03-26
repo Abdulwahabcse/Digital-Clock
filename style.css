@@ -1,0 +1,39 @@
+/* styles for body and html*/
+body,
+html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.clock {
+    text-align: center;
+}
+
+.time {
+    font-size: 48px;
+}
+
+/* styles for the button */
+#toggleFormat {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+#toggleFormat:hover {
+    background-color: #0056b3;
+}
+
+#toggleFormat:focus {
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, .5);
+}
